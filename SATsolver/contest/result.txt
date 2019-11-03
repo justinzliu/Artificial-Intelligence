@@ -1,0 +1,15 @@
+(base) justin@justin-MS-7A62:~/CSProjects/CMPT310/A2/contest$ gcc -o sgen sgen.c -lm
+(base) justin@justin-MS-7A62:~/CSProjects/CMPT310/A2/contest$ python3 contest.py 
+Pass n=50 time left 0:04:39.103
+Pass n=55 time left 0:04:33.393
+Pass n=60 time left 0:02:36.384
+Pass n=65 time left 0:00:05.569
+Time out!
+Largest n =  65
+
+Optimizations:
+1) variable map structure to allow for linear time complexity assigning truth values to variables, unit propagation, and pure literal elimination
+2) bitmap state strucutre for each clause to allow for constant time in checking states of clauses (fulfilled, failed, and partial assignment)
+3) symbol choice heuristic tests symbols present in the most clauses first
+4) unit propagation (linear time complexity to size of set of clauses)
+5) pure literal elimination (linear time complexity to size of set of clauses)
