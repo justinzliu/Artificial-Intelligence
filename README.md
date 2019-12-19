@@ -10,4 +10,12 @@ Pacman program that accepts problem space and outputs Pacman path given a search
 
 ### SATsolver
 
-SAT solver program using DPLL algorithm to return an assignment of values that fulfill given clauses. Full implementation of unit propagation, pure literals, and variable selection utilizing least constrained clause heuristic.
+SAT problem solver program using DPLL algorithm to return an assignment of values that fulfill given clauses. Full implementation of unit propagation, pure literals, and variable selection utilizing least constrained clause heuristic.
+
+### DNAsequence
+
+
+
+### NeuralNetwork
+
+Multilayer perceptron implementation using sigmoid activation.
